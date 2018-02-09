@@ -1,0 +1,73 @@
+/* CSS Document */
+body {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+.frame {}
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+/* Sections -----------------------------------------*/
+/* Header */
+header { background-color: lightgray; }
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.header-content div { padding: 15px 0; }
+.header-right {text-align: right;}
+
+/* Nav */
+nav {background-color: black;}
+
+/* Slider --------------*/
+#slider {}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+/* Content */
+.content {padding: 30px 0;}
+.blurb {font-size: 30px; line-height: 1.5; background-color: #eee; padding: 30px 0; }
+/* Footer */
+footer {background-color: black; color: white;}
+.footer-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 10px;
+}
+.copyright {
+  background-color: #222; 
+  padding: 20px 0;
+  color: white;
+}
