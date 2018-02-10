@@ -71,3 +71,18 @@ footer {background-color: black; color: white;}
   padding: 20px 0;
   color: white;
 }
+
+/* First Breakpoint - covers all tablets and below - overrides any of the above styles ----------- */
+@media only screen and (max-width: 999px) {
+  
+}
+
+/* Second Breakpoint - covers all smaller devices - overrides any of the above styles (both sets) ----------- */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Third Breakpoint - covers all portrait phones - overrides any of the above styles (all sets) ----------- */
+@media only screen and (max-width: 320px) {
+  
+}
